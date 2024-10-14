@@ -6,7 +6,7 @@ const ejs = require('ejs')
 var bodyParser = require('body-parser')
 const repository = require('./inMemoryWorkshop');
 //const repository = require("./mongoWorkshop");
-
+//ajoout de commentaire
 repository.init().then(() => {
 
     app.use(bodyParser.urlencoded({ extended: false }))
